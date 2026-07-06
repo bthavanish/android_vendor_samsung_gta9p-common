@@ -1,4 +1,4 @@
-# Unpinned blobs from gta9pxxx-user 14 UP1A.231005.007 X216BXXS3CXG1 release-keys
+# Unpinned blobs from gta9pxxx-user 15 UP1A.231005.007 X216BXXS9DYJ7 release-keys
 # For use with lineage-23.2
 
 # ACDB
@@ -208,10 +208,8 @@ vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # ANT
-# MODULE_SUFFIX
-system_ext/lib/com.qualcomm.qti.ant@1.0.so
-# MODULE_SUFFIX
-system_ext/lib64/com.qualcomm.qti.ant@1.0.so
+system_ext/lib/com.qualcomm.qti.ant@1.0.so;MODULE_SUFFIX
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so;MODULE_SUFFIX
 
 # Atrace
 vendor/bin/hw/android.hardware.atrace@1.0-service
@@ -547,8 +545,7 @@ vendor/lib/libbitmlengine.so
 vendor/lib/libbitmlenginev2.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamxexternalformatutils.so
-# DISABLE_CHECKELF
-vendor/lib/libcamxfacialfeatures.so
+vendor/lib/libcamxfacialfeatures.so;DISABLE_CHECKELF
 vendor/lib/libcamxfdalgo.so
 vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxifestriping.so
@@ -564,10 +561,8 @@ vendor/lib/libdisplayconfig.qti.so
 vendor/lib/libgralloc.qti.so
 vendor/lib/libmmcamera_bestats.so
 vendor/lib/libmmcamera_cac3.so
-# DISABLE_CHECKELF
-vendor/lib/libmmcamera_faceproc.so
-# DISABLE_CHECKELF
-vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_faceproc2.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_lscv35.so
 vendor/lib/libmmcamera_mfnr.so
 vendor/lib/libmmcamera_mfnr_t4.so
@@ -730,8 +725,7 @@ vendor/lib64/libbitmlengine.so
 vendor/lib64/libbitmlenginev2.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxexternalformatutils.so
-# DISABLE_CHECKELF
-vendor/lib64/libcamxfacialfeatures.so
+vendor/lib64/libcamxfacialfeatures.so;DISABLE_CHECKELF
 vendor/lib64/libcamxfdalgo.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxifestriping.so
@@ -747,10 +741,8 @@ vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libgralloc.qti.so
 vendor/lib64/libmmcamera_bestats.so
 vendor/lib64/libmmcamera_cac3.so
-# DISABLE_CHECKELF
-vendor/lib64/libmmcamera_faceproc.so
-# DISABLE_CHECKELF
-vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmmcamera_faceproc.so;DISABLE_CHECKELF
+vendor/lib64/libmmcamera_faceproc2.so;DISABLE_CHECKELF
 vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
 vendor/lib64/libmmcamera_mfnr_t4.so
