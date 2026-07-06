@@ -23,3 +23,8 @@ Extracted from Samsung firmware `X216BXXS9DYJ7` (Android 14 / One UI 6.1).
 
 This repo is inherited by `android_vendor_samsung_gta9p` via the device vendor
 makefile. It should not be used directly.
+
+## Branches
+
+- `lineage-21` - Android 14 / One UI 6.1
+- `lineage-23.2` - Android 16 / One UI 8
